@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
         initWifiService()
 
         val retrofitSystemDefault = Retrofit.Builder().client(systemDefaultClient)
-            .baseUrl("https://api.github.com/")
+            .baseUrl("https://code-test.migoinc-dev.com/")
             .addConverterFactory(GsonConverterFactory.create())
             .build()
 
